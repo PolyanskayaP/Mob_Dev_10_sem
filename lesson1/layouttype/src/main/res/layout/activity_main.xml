@@ -16,4 +16,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="259dp"
+        android:layout_height="57dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Полина Полянская БИСО-01-20"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="123dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
