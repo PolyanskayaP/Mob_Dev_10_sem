@@ -2,6 +2,7 @@ package ru.mirea.polyanskayapa.activitylifecycle;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -13,12 +14,17 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     private final String TAG = MainActivity.class.getSimpleName();
+    private TextView Text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
+
+        Log.i(TAG, "onCreate()");
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -37,5 +43,30 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         Log.i(TAG, "onSaveInstanceState()");
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i(TAG, "onResume()");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i(TAG, "onPause()");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i(TAG, "onStop()");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i(TAG, "onDestroy()");
+    }
+
 
 }

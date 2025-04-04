@@ -22,3 +22,8 @@ dependencyResolutionManagement {
 rootProject.name = "Lesson2"
 include(":app")
 include(":activitylifecycle")
+include(":app:multiactivity")
+include(":app:intentfilter")
+include(":app:toastapp")
+include(":app:notificationapp")
+include(":app:dialog")
