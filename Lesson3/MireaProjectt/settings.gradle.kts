@@ -19,13 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "My Application"
-include(":app")
-include(":intentapp")
-include(":Sharer")
-include(":FavoriteBook")
-include(":SystemIntensApp")
-include(":SystemIntentsApp")
-include(":SimpleFragmentApp")
+rootProject.name = "MireaProjectt"
 include(":app")
  

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.polyanskayapa.Lesson3"
+    namespace = "ru.mirea.polyanskayapa.mireaprojectt"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.polyanskayapa.Lesson3"
+        applicationId = "ru.mirea.polyanskayapa.mireaprojectt"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -38,7 +38,6 @@ dependencies {
 
     implementation(libs.appcompat)
     implementation(libs.material)
-    implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.lifecycle.livedata.ktx)
     implementation(libs.lifecycle.viewmodel.ktx)
