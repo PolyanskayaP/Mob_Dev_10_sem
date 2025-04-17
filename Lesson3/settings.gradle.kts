@@ -23,3 +23,4 @@ rootProject.name = "My Application"
 include(":app")
 include(":intentapp")
 include(":Sharer")
+include(":FavoriteBook")
