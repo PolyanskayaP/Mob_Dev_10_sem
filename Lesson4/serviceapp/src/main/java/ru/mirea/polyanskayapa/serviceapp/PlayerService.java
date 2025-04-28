@@ -36,7 +36,7 @@ public	class	PlayerService	extends	Service	{
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setStyle(new	NotificationCompat.BigTextStyle()
                         .bigText("Tarkan Shikidim"))
-                .setContentTitle("Music	Player");
+                .setContentTitle("Polina Music	Player");
         int	importance	=	NotificationManager.IMPORTANCE_DEFAULT;
         NotificationChannel channel	=	new	NotificationChannel(CHANNEL_ID,	"Student Polyanskaya Polina Alekseevna Notification",	importance);
         channel.setDescription("MIREA	Channel");
