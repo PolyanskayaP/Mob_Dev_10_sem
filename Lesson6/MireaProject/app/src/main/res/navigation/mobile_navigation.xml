@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.polyanskayapa.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.polyanskayapa.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.polyanskayapa.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.polyanskayapa.mireaproject.DataFragment"
+        android:label="fragment_data"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/nav_web"
+        android:name="ru.mirea.polyanskayapa.mireaproject.WebViewFragment"
+        android:label="fragment_webview"
+        tools:layout="@layout/fragment_webview" />
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="ru.mirea.polyanskayapa.mireaproject.WorkerFragment"
+        android:label="Фоновая задача"
+        tools:layout="@layout/fragment_worker" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.polyanskayapa.mireaproject.CameraFragment"
+        android:label="Камера"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_microphone"
+        android:name="ru.mirea.polyanskayapa.mireaproject.MicrophoneFragment"
+        android:label="Измерение шума"
+        tools:layout="@layout/fragment_microphone" />
+
+    <fragment
+        android:id="@+id/nav_altitude"
+        android:name="ru.mirea.polyanskayapa.mireaproject.AltitudeFragment"
+        android:label="Высота"
+        tools:layout="@layout/fragment_altitude" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.polyanskayapa.mireaproject.ProfileFragment"
+        android:label="Профиль" />
+    <fragment
+        android:id="@+id/nav_file"
+        android:name="ru.mirea.polyanskayapa.mireaproject.FilesFragment"
+        android:label="Работа с файлами" />
+
+</navigation>
