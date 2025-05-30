@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482217896560",
+    "project_id": "lesson7pol",
+    "storage_bucket": "lesson7pol.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482217896560:android:7776111ebe52637615e2b5",
+        "android_client_info": {
+          "package_name": "ru.mirea.polyanskayapa.lesson7"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsiSyt3mPZ-8qjQ-NKRO-RhxojPfIb4vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
