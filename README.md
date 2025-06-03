@@ -1,1 +1,1 @@
-MireaProject лежит внутри каждого Lesson
+MireaProject лежит внутри каждого Lesson (3–7)
